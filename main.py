@@ -58,8 +58,8 @@ while True:
         #constrin values for easiser drawing
 
         indexFinger = lmlist[8][0],lmlist[8][1]
-        xVal = int(np.interp(lmlist[8][0],[width // 2,width],[0,width]))
-        yVal = int(np.interp(lmlist[8][1], [150, height-150], [0, height]))
+        xVal = int(np.interp(lmlist[8][0],[width // 4,width],[0,width]))
+        yVal = int(np.interp(lmlist[8][1], [100, height-100], [0, height]))
         # converting one range to another range
 
         indexFinger = xVal,yVal
